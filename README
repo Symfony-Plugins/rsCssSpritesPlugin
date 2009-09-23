@@ -1,0 +1,28 @@
+rsCssSpritesPlugin
+==============
+
+The `rsCssSpritesPlugin` adds a task to generate css sprites from your images and stylesheets.
+
+it uses the smartsprites library (java) from http://csssprites.org
+
+
+Installation
+------------
+
+  * Install the plugin
+
+        $ symfony plugin:install rsCssSpritesPlugin -s beta
+
+Usage
+-----
+  * prepare your stylesheets and images, see http://csssprites.org/ how to use it
+
+  * run the task
+
+        $ symfony generate:sprites
+
+
+TODO
+----
+
+  * tests

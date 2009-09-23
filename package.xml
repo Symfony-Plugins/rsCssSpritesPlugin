@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.8.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>rsCssSpritesPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>generates css sprites for you</summary>
+ <description>see http://csssprites.org/#usage how to use it</description>
+ <lead>
+  <name>Robert Schönthal</name>
+  <user>caziel</user>
+  <email>caziel@gmx.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-09-23</date>
+ <time>20:50:40</time>
+ <version>
+  <release>0.5.2</release>
+  <api>0.5.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="77516852cc08bf8f6f1c130f919462c8" name="config/rsCssSpritesPluginConfiguration.class.php" role="data" />
+   <file md5sum="b25a4a12472d6ca0dab0252f22cb4e45" name="lib/task/rsCssSpritesTask.class.php" role="data" />
+   <file md5sum="d5b612e4d3757561099f582619048bf4" name="lib/vendor/smartsprites/doc/css/default-sprite.css" role="data" />
+   <file md5sum="144b4779d6c129e7db919def78170ad2" name="lib/vendor/smartsprites/doc/css/default.css" role="data" />
+   <file md5sum="cead67ba2acf2cc87bae9b0e7946e0d4" name="lib/vendor/smartsprites/doc/img/arrow_undo.png" role="data" />
+   <file md5sum="f19ddf41dcb6f9fb9b69f02096a2aff0" name="lib/vendor/smartsprites/doc/img/bg.png" role="data" />
+   <file md5sum="6dfccd5f2062667bfe1144c21e261655" name="lib/vendor/smartsprites/doc/img/bgitem.gif" role="data" />
+   <file md5sum="a05f7fb945984474ab22a0e2bca36d22" name="lib/vendor/smartsprites/doc/img/bgmenu.png" role="data" />
+   <file md5sum="1710fc95808e82337fb36b53d6f98d12" name="lib/vendor/smartsprites/doc/img/dark_pixel.jpg" role="data" />
+   <file md5sum="57d4122b76c7ef0afce996f7e3e5a95f" name="lib/vendor/smartsprites/doc/img/donate-10.png" role="data" />
+   <file md5sum="2da460f1e5b549ca54811b3dcab72085" name="lib/vendor/smartsprites/doc/img/donate-25.png" role="data" />
+   <file md5sum="0cdf57edb6fd3fac5ea1ac4ff3ca8e6c" name="lib/vendor/smartsprites/doc/img/donate-50.png" role="data" />
+   <file md5sum="5e617f0da8ab1bf6f2206de93fb483a9" name="lib/vendor/smartsprites/doc/img/donate-other.png" role="data" />
+   <file md5sum="f48555798bdd77ab9b0a9e99694c28b0" name="lib/vendor/smartsprites/doc/img/how-smartsprites-works.jpg" role="data" />
+   <file md5sum="be2e366d7718649fb7b3cea7d4266ac4" name="lib/vendor/smartsprites/doc/img/li.gif" role="data" />
+   <file md5sum="978db7871fa41e8056f31be8793895a0" name="lib/vendor/smartsprites/doc/img/quote.gif" role="data" />
+   <file md5sum="70aa8909e91f975f59974f45202c9f58" name="lib/vendor/smartsprites/doc/img/vert-ie6.png" role="data" />
+   <file md5sum="101fc23471611420941fb248ff0bdda2" name="lib/vendor/smartsprites/doc/img/vert.png" role="data" />
+   <file md5sum="20fa7c2410f443566dd9fbec5cd037f9" name="lib/vendor/smartsprites/doc/download.html" role="data" />
+   <file md5sum="00ff1d1b80e7228ea7efed67571db6f8" name="lib/vendor/smartsprites/doc/index.html" role="data" />
+   <file md5sum="43b9f2bf749ac06e01bfe2d6ec0d334b" name="lib/vendor/smartsprites/lib/args4j-2.0.9.jar" role="data" />
+   <file md5sum="66d22149076e967ef6b4b6c4a4446ceb" name="lib/vendor/smartsprites/lib/args4j.LICENSE" role="data" />
+   <file md5sum="b6a50c8a15ece8753e37cbe5700bf84f" name="lib/vendor/smartsprites/lib/commons-io-1.4.jar" role="data" />
+   <file md5sum="d273d63619c9aeaf15cdaf76422c4f87" name="lib/vendor/smartsprites/lib/commons-io.LICENSE" role="data" />
+   <file md5sum="dcdcbb47176603907c9f79a1349193eb" name="lib/vendor/smartsprites/lib/commons-lang-2.3.jar" role="data" />
+   <file md5sum="d273d63619c9aeaf15cdaf76422c4f87" name="lib/vendor/smartsprites/lib/commons-lang.LICENSE" role="data" />
+   <file md5sum="d273d63619c9aeaf15cdaf76422c4f87" name="lib/vendor/smartsprites/lib/commons-math-1.1.LICENSE" role="data" />
+   <file md5sum="4110b033a7a44c9fb40cd634b8c8d080" name="lib/vendor/smartsprites/lib/commons-math-1.1.jar" role="data" />
+   <file md5sum="36245e758fc6157911f800cdccd138c0" name="lib/vendor/smartsprites/lib/google-collections-1.0-rc2.jar" role="data" />
+   <file md5sum="3b83ef96387f14655fc854ddc3c6bd57" name="lib/vendor/smartsprites/lib/google-collections.LICENSE" role="data" />
+   <file md5sum="f852bbb2bbe0471cef8e5b833cb36078" name="lib/vendor/smartsprites/lib/junit-4.4.jar" role="data" />
+   <file md5sum="67c4c7cd60b9646370e330783131b0a9" name="lib/vendor/smartsprites/lib/junit.LICENSE" role="data" />
+   <file md5sum="bb6a76bd118474330f895e15d70b6487" name="lib/vendor/smartsprites/lib/smartsprites-0.2.4.jar" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/absolute-image-url/absolute-path/img/web.gif" role="data" />
+   <file md5sum="3f2564facaaf6a934c9e65781dd79106" name="lib/vendor/smartsprites/test/absolute-image-url/css/style-expected.css" role="data" />
+   <file md5sum="1a1ba71e0d6c10ce3f8e83ffdfda7ede" name="lib/vendor/smartsprites/test/absolute-image-url/css/style.css" role="data" />
+   <file md5sum="3ef8aef6e3abb08946cf272dba9ff865" name="lib/vendor/smartsprites/test/css-output-dir/css/sprite/style-expected.css" role="data" />
+   <file md5sum="90a8b0416418487eeff7699333058356" name="lib/vendor/smartsprites/test/css-output-dir/css/sprite/style.css" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/css-output-dir/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/css-output-dir/img/web.gif" role="data" />
+   <file md5sum="47e5b9c3298de7b3d4748f98974fec1d" name="lib/vendor/smartsprites/test/example-from-the-website/css/style.css" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/example-from-the-website/img/logo.png" role="data" />
+   <file md5sum="2c2ed1316c4dbc91ae4776377b77a2c2" name="lib/vendor/smartsprites/test/example-from-the-website/img/top-frame.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/example-from-the-website/img/web.gif" role="data" />
+   <file md5sum="ae1f66a16d1154be121c4d268ebf6470" name="lib/vendor/smartsprites/test/indexed-color/css/style-expected.css" role="data" />
+   <file md5sum="ff032b52c68d4987092f503c13107d1e" name="lib/vendor/smartsprites/test/indexed-color/css/style.css" role="data" />
+   <file md5sum="8036528fccf4c18861d4273507796229" name="lib/vendor/smartsprites/test/indexed-color/img/bit-alpha.gif" role="data" />
+   <file md5sum="f40e5a5af57ec3e1f33a2bf13bc6372e" name="lib/vendor/smartsprites/test/indexed-color/img/bit-alpha.png" role="data" />
+   <file md5sum="bc9ecadbb66465323b35cad59c4dc6cf" name="lib/vendor/smartsprites/test/indexed-color/img/full-alpha.png" role="data" />
+   <file md5sum="cb45626c875e31a6d27d06cdd87a5fb1" name="lib/vendor/smartsprites/test/indexed-color/img/many-colors.png" role="data" />
+   <file md5sum="6a379911ec65217835ffd48e4aaa7e6d" name="lib/vendor/smartsprites/test/indexed-color-ie6/css/style-expected.css" role="data" />
+   <file md5sum="f97eccee12ac83a32884e2918dd566c0" name="lib/vendor/smartsprites/test/indexed-color-ie6/css/style.css" role="data" />
+   <file md5sum="8036528fccf4c18861d4273507796229" name="lib/vendor/smartsprites/test/indexed-color-ie6/img/bit-alpha.gif" role="data" />
+   <file md5sum="f40e5a5af57ec3e1f33a2bf13bc6372e" name="lib/vendor/smartsprites/test/indexed-color-ie6/img/bit-alpha.png" role="data" />
+   <file md5sum="bc9ecadbb66465323b35cad59c4dc6cf" name="lib/vendor/smartsprites/test/indexed-color-ie6/img/full-alpha.png" role="data" />
+   <file md5sum="26c87986467ad9aae38fa8984d1a5d4b" name="lib/vendor/smartsprites/test/indexed-color-ie6/img/many-colors-bit-alpha.png" role="data" />
+   <file md5sum="cb45626c875e31a6d27d06cdd87a5fb1" name="lib/vendor/smartsprites/test/indexed-color-ie6/img/many-colors.png" role="data" />
+   <file md5sum="5a32211c2f4f64c1ab87388e385afb2f" name="lib/vendor/smartsprites/test/individual-css-files-with-output-dir/css/custom/style-expected.css" role="data" />
+   <file md5sum="d5b52d175a98997ea95ad525b2d7d6dc" name="lib/vendor/smartsprites/test/individual-css-files-with-output-dir/css/custom/style.css" role="data" />
+   <file md5sum="5a32211c2f4f64c1ab87388e385afb2f" name="lib/vendor/smartsprites/test/individual-css-files-with-output-dir/css/style-expected.css" role="data" />
+   <file md5sum="722d03aa6d28d9727a0f603734308343" name="lib/vendor/smartsprites/test/individual-css-files-with-output-dir/css/style.css" role="data" />
+   <file md5sum="7291ad445365b40e2189ab5a5b2d9152" name="lib/vendor/smartsprites/test/individual-css-files-with-output-dir/css-other/style.css" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/individual-css-files-with-output-dir/img/web.gif" role="data" />
+   <file md5sum="5a32211c2f4f64c1ab87388e385afb2f" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css/custom/style-expected.css" role="data" />
+   <file md5sum="d5b52d175a98997ea95ad525b2d7d6dc" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css/custom/style.css" role="data" />
+   <file md5sum="bc509b1bd88ba0ab418185095852113a" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css/img/sprite.png" role="data" />
+   <file md5sum="5a32211c2f4f64c1ab87388e385afb2f" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css/style-expected.css" role="data" />
+   <file md5sum="722d03aa6d28d9727a0f603734308343" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css/style.css" role="data" />
+   <file md5sum="5a32211c2f4f64c1ab87388e385afb2f" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css-other/style-expected.css" role="data" />
+   <file md5sum="7291ad445365b40e2189ab5a5b2d9152" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/css-other/style.css" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/individual-css-files-without-output-dir/img/web.gif" role="data" />
+   <file md5sum="db1391ace5350d36e42c130907eb660c" name="lib/vendor/smartsprites/test/large-repeat/css/style-expected.css" role="data" />
+   <file md5sum="e652249dfcb5bccd2ac978a968603f61" name="lib/vendor/smartsprites/test/large-repeat/css/style.css" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/large-repeat/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/large-repeat/img/web.gif" role="data" />
+   <file md5sum="c979bdeee3993eada5c2e4974da9799c" name="lib/vendor/smartsprites/test/matte-color/css/style-expected.css" role="data" />
+   <file md5sum="728f1f5ae2c6e3e6d4138cb1b69bdf3f" name="lib/vendor/smartsprites/test/matte-color/css/style.css" role="data" />
+   <file md5sum="f40e5a5af57ec3e1f33a2bf13bc6372e" name="lib/vendor/smartsprites/test/matte-color/img/bit-alpha.png" role="data" />
+   <file md5sum="bc9ecadbb66465323b35cad59c4dc6cf" name="lib/vendor/smartsprites/test/matte-color/img/full-alpha.png" role="data" />
+   <file md5sum="cb45626c875e31a6d27d06cdd87a5fb1" name="lib/vendor/smartsprites/test/matte-color/img/many-colors.png" role="data" />
+   <file md5sum="3fc81f1057c512137c8854c1391ad339" name="lib/vendor/smartsprites/test/missing-images/css/style-expected.css" role="data" />
+   <file md5sum="7ed376c53d79c6e18d145abf7f716296" name="lib/vendor/smartsprites/test/missing-images/css/style.css" role="data" />
+   <file md5sum="2c2ed1316c4dbc91ae4776377b77a2c2" name="lib/vendor/smartsprites/test/missing-images/img/top-frame.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/missing-images/img/web.gif" role="data" />
+   <file md5sum="0dc87e3f8ad3845c2c707304a0c00a41" name="lib/vendor/smartsprites/test/multiple-css-files/css/style-expected.css" role="data" />
+   <file md5sum="0ab5deaa0d6f3bd6dadaa7e2a32637c5" name="lib/vendor/smartsprites/test/multiple-css-files/css/style.css" role="data" />
+   <file md5sum="dd051aa4a54dfb4c03f27e6b5e809ce2" name="lib/vendor/smartsprites/test/multiple-css-files/css/style2-expected.css" role="data" />
+   <file md5sum="6bae21c9aa7b4af31551dcdac73e5a31" name="lib/vendor/smartsprites/test/multiple-css-files/css/style2.css" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/multiple-css-files/img/logo.png" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/multiple-css-files/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/multiple-css-files/img/web.gif" role="data" />
+   <file md5sum="e098410e9ddd45840f761ca922d57fc5" name="lib/vendor/smartsprites/test/no-sprite-declarations/css/style.css" role="data" />
+   <file md5sum="8b79f7c7e32c0e325359c24134d925cd" name="lib/vendor/smartsprites/test/no-sprite-references/css/style-expected.css" role="data" />
+   <file md5sum="ad7ac569fbbdc13a7d6eb6360f7af0d2" name="lib/vendor/smartsprites/test/no-sprite-references/css/style.css" role="data" />
+   <file md5sum="afe9e24d46153b191272edcea5151020" name="lib/vendor/smartsprites/test/non-default-output-dir/css/style-expected.css" role="data" />
+   <file md5sum="75d18a6f074289bb5834b5864c96647d" name="lib/vendor/smartsprites/test/non-default-output-dir/css/style.css" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/non-default-output-dir/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/non-default-output-dir/img/web.gif" role="data" />
+   <file md5sum="5a41a42dc6fce2527c94680d65ec306d" name="lib/vendor/smartsprites/test/overriding-css-properties/css/style-expected.css" role="data" />
+   <file md5sum="5fc42256ee5caa2ece6bea5d2c7fe060" name="lib/vendor/smartsprites/test/overriding-css-properties/css/style.css" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/overriding-css-properties/img/logo.png" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/overriding-css-properties/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/overriding-css-properties/img/web.gif" role="data" />
+   <file md5sum="97cac1955cdc3bc1224bf74952375ae4" name="lib/vendor/smartsprites/test/real-world-example/css/common-ie6.css" role="data" />
+   <file md5sum="a36164d5b1c0f147604d399bce548076" name="lib/vendor/smartsprites/test/real-world-example/css/common-ie7.css" role="data" />
+   <file md5sum="aa9499238f9fe860a746f5581f065ab7" name="lib/vendor/smartsprites/test/real-world-example/css/common.css" role="data" />
+   <file md5sum="982aa1228ee0f9ade783184922feb649" name="lib/vendor/smartsprites/test/real-world-example/img/border-bottom.gif" role="data" />
+   <file md5sum="2c2ed1316c4dbc91ae4776377b77a2c2" name="lib/vendor/smartsprites/test/real-world-example/img/border-top.gif" role="data" />
+   <file md5sum="befbeecf41b1f2f4b881160dd95078a4" name="lib/vendor/smartsprites/test/real-world-example/img/bulb.gif" role="data" />
+   <file md5sum="9e595c444049599247fbcc891470e18e" name="lib/vendor/smartsprites/test/real-world-example/img/c2-background.gif" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/real-world-example/img/c2-logo-small.png" role="data" />
+   <file md5sum="4afe120fb93aced99a156a1609c0c786" name="lib/vendor/smartsprites/test/real-world-example/img/c2-logo-startup.gif" role="data" />
+   <file md5sum="bda2d6d434825559e953f02cb0376924" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-b.gif" role="data" />
+   <file md5sum="e93458d9df7909679ed4d37069b331e1" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-bl.gif" role="data" />
+   <file md5sum="c3aec2193f638c0cfa6cf20f8e23501a" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-br.gif" role="data" />
+   <file md5sum="d763991ec3b4f8a9666e4cf65b7d650f" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-l.gif" role="data" />
+   <file md5sum="c3fd043940996924210bf9a419197594" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-r.gif" role="data" />
+   <file md5sum="036650f11cd3deedc7a3d0c3415ac3bb" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-t.gif" role="data" />
+   <file md5sum="6b8f9fa1ef2a1cfef6eee8fdcb01987c" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-tl.gif" role="data" />
+   <file md5sum="b656974ee358ac1da732494fb7cf7b4d" name="lib/vendor/smartsprites/test/real-world-example/img/glow-big-tr.gif" role="data" />
+   <file md5sum="1c3f5d5e552939b8b6a754d86d6574cf" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-b.gif" role="data" />
+   <file md5sum="e087c6dc9489b0b639b3c83b1b9c6b16" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-bl.gif" role="data" />
+   <file md5sum="8d8e90da936e61cfa272655c352f9103" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-br.gif" role="data" />
+   <file md5sum="b10accf993f91bb805eff7b200678f80" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-l.gif" role="data" />
+   <file md5sum="daaf35e5566d7c1e9e3dc20ee9e1a2a5" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-r.gif" role="data" />
+   <file md5sum="4b0c4413eca5b3f48247789fb1f30507" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-t.gif" role="data" />
+   <file md5sum="a5ad09b222f25952c9b35d0eb56be27a" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-tl.gif" role="data" />
+   <file md5sum="5e6f3085c934bab9e743948a4dcfde93" name="lib/vendor/smartsprites/test/real-world-example/img/glow-small-tr.gif" role="data" />
+   <file md5sum="2fb94ccd72b9407cd72708370d97e3fc" name="lib/vendor/smartsprites/test/real-world-example/img/google.gif" role="data" />
+   <file md5sum="3750c701d2ec35a45d289b9b9c1a0667" name="lib/vendor/smartsprites/test/real-world-example/img/information.png" role="data" />
+   <file md5sum="2ba9b7e0df849c42692c40252c8913dc" name="lib/vendor/smartsprites/test/real-world-example/img/jobs.gif" role="data" />
+   <file md5sum="d4dcb01c99b51923a894729fb50a1c6b" name="lib/vendor/smartsprites/test/real-world-example/img/msn.gif" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/real-world-example/img/pubmed.gif" role="data" />
+   <file md5sum="c945ea9b7f967b26d5ef8608f208e9b5" name="lib/vendor/smartsprites/test/real-world-example/img/tab-active-body.gif" role="data" />
+   <file md5sum="7380be0bdfeaa0630f75eb4e1eba1cc7" name="lib/vendor/smartsprites/test/real-world-example/img/tab-active-lead-in.gif" role="data" />
+   <file md5sum="b5be605acb147fe36c1e75ccf9d6860e" name="lib/vendor/smartsprites/test/real-world-example/img/tab-active-lead-out.gif" role="data" />
+   <file md5sum="07c0a2826cd9351dc0a93e7d7fd10741" name="lib/vendor/smartsprites/test/real-world-example/img/tab-active-passive-link.gif" role="data" />
+   <file md5sum="cd8cab9a483a19727c434f2e6f2e35f7" name="lib/vendor/smartsprites/test/real-world-example/img/tab-passive-active-link.gif" role="data" />
+   <file md5sum="7b4edf1f8c2b075eb2c2b85f796f082d" name="lib/vendor/smartsprites/test/real-world-example/img/tab-passive-body.gif" role="data" />
+   <file md5sum="2641645a7ece34bfaf75521317110ea3" name="lib/vendor/smartsprites/test/real-world-example/img/tab-passive-lead-in.gif" role="data" />
+   <file md5sum="4aebe62f36cb653020fbf7e166371b0b" name="lib/vendor/smartsprites/test/real-world-example/img/tab-passive-lead-out.gif" role="data" />
+   <file md5sum="25b463c83763cda036a52e11c51c0fea" name="lib/vendor/smartsprites/test/real-world-example/img/tab-passive-passive-link.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/real-world-example/img/web.gif" role="data" />
+   <file md5sum="7c7df1e4c18a14039fd3a7fa1949c568" name="lib/vendor/smartsprites/test/real-world-example/img/yahoo.gif" role="data" />
+   <file md5sum="df175edb546957ecde79d69f77e56a5f" name="lib/vendor/smartsprites/test/real-world-example/js/carrot2.layout.js" role="data" />
+   <file md5sum="967b4360f642c475d4f0b370f1c64ee7" name="lib/vendor/smartsprites/test/real-world-example/js/carrot2.tabs.js" role="data" />
+   <file md5sum="030ce4f8d04f72673fcec38375281651" name="lib/vendor/smartsprites/test/real-world-example/js/carrot2.util.js" role="data" />
+   <file md5sum="bb122b33d64d02a106bf2230b2d41af0" name="lib/vendor/smartsprites/test/real-world-example/js/jquery-1.2.3.min.js" role="data" />
+   <file md5sum="47c86e764c9d5dec1a2929f06cd7464a" name="lib/vendor/smartsprites/test/real-world-example/js/jquery.dimensions.min.js" role="data" />
+   <file md5sum="7b7ebe73d63486ad03aa089c99dcaeef" name="lib/vendor/smartsprites/test/real-world-example/js/ui.mouse.js" role="data" />
+   <file md5sum="81756eb9ad753a97d1410af4fa558b2b" name="lib/vendor/smartsprites/test/real-world-example/js/ui.sortable.ext.js" role="data" />
+   <file md5sum="b5ae559499d4d16026552a7a17311a65" name="lib/vendor/smartsprites/test/real-world-example/js/ui.sortable.js" role="data" />
+   <file md5sum="602fec2d6f8bad9b55eb17cfef91efef" name="lib/vendor/smartsprites/test/real-world-example/tabs-sprite.html" role="data" />
+   <file md5sum="fcc3a95c3f7292a70dea2258a628ca7d" name="lib/vendor/smartsprites/test/real-world-example/tabs.html" role="data" />
+   <file md5sum="d1204678ecf7a1b9e4ac8286596fd9fd" name="lib/vendor/smartsprites/test/repeated-image-references/css/style-expected.css" role="data" />
+   <file md5sum="22d07ba75ac3915fe8f88d02b8a0469b" name="lib/vendor/smartsprites/test/repeated-image-references/css/style.css" role="data" />
+   <file md5sum="5cef30b57607199be44b3a287e5aa116" name="lib/vendor/smartsprites/test/repeated-image-references/img/web-margin.png" role="data" />
+   <file md5sum="46b66a2a89c37c4a9efb8dec87b6df28" name="lib/vendor/smartsprites/test/repeated-image-references/img/web.png" role="data" />
+   <file md5sum="2f767cfe51160a477ee942bfccb0056c" name="lib/vendor/smartsprites/test/simple-horizontal-sprite/css/style-expected.css" role="data" />
+   <file md5sum="498f83f8c279b1c9c76ef5cce4f34d72" name="lib/vendor/smartsprites/test/simple-horizontal-sprite/css/style.css" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/simple-horizontal-sprite/img/logo.png" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/simple-horizontal-sprite/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/simple-horizontal-sprite/img/web.gif" role="data" />
+   <file md5sum="0cc2fbd9e007363ea39b6d12d7e7ba01" name="lib/vendor/smartsprites/test/simple-horizontal-sprite-important/css/style-expected.css" role="data" />
+   <file md5sum="5af1fd5441473d668a1cb912571a7f12" name="lib/vendor/smartsprites/test/simple-horizontal-sprite-important/css/style.css" role="data" />
+   <file md5sum="bc9ecadbb66465323b35cad59c4dc6cf" name="lib/vendor/smartsprites/test/simple-horizontal-sprite-important/img/full-alpha.png" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/simple-horizontal-sprite-important/img/logo.png" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/simple-horizontal-sprite-important/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/simple-horizontal-sprite-important/img/web.gif" role="data" />
+   <file md5sum="e2208e5e9770ff46d2897fe717f4aa85" name="lib/vendor/smartsprites/test/sprite-image-uid-md5/css/style-expected.css" role="data" />
+   <file md5sum="33c208564dc0f7c4cdef05dbb7a105e6" name="lib/vendor/smartsprites/test/sprite-image-uid-md5/css/style.css" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/sprite-image-uid-md5/img/logo.png" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/sprite-image-uid-md5/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/sprite-image-uid-md5/img/web.gif" role="data" />
+   <file md5sum="6beac2cdad82affa9f2174858d0e6508" name="lib/vendor/smartsprites/test/sprite-image-uid-md5-ie6/css/style-expected.css" role="data" />
+   <file md5sum="09b668e4f1e9c59cbd8d4bc634865811" name="lib/vendor/smartsprites/test/sprite-image-uid-md5-ie6/css/style.css" role="data" />
+   <file md5sum="bc9ecadbb66465323b35cad59c4dc6cf" name="lib/vendor/smartsprites/test/sprite-image-uid-md5-ie6/img/full-alpha.png" role="data" />
+   <file md5sum="bcfa2f86c06a3d85c3fc0c3f6b2d84d9" name="lib/vendor/smartsprites/test/target-sprite-image-dir-not-exists/css/style-expected.css" role="data" />
+   <file md5sum="6dfcf250f10817acdd3dccc13dcf9b08" name="lib/vendor/smartsprites/test/target-sprite-image-dir-not-exists/css/style.css" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/target-sprite-image-dir-not-exists/img/web.gif" role="data" />
+   <file md5sum="7e9f56e10e2c47370c14f19e3d7afb5d" name="lib/vendor/smartsprites/test/unsupported-sprite-properties/css/style-expected.css" role="data" />
+   <file md5sum="939afe5ca0ac244c7f69bb1c8a9052f5" name="lib/vendor/smartsprites/test/unsupported-sprite-properties/css/style.css" role="data" />
+   <file md5sum="8bb57198162a249eb8bf50cb5a0da2d0" name="lib/vendor/smartsprites/test/unsupported-sprite-properties/img/logo.png" role="data" />
+   <file md5sum="a057c7af0b909a7a13e1d9411ae84549" name="lib/vendor/smartsprites/test/unsupported-sprite-properties/img/pubmed.gif" role="data" />
+   <file md5sum="1d59a6af238959d446c82f8e939c529c" name="lib/vendor/smartsprites/test/unsupported-sprite-properties/img/web.gif" role="data" />
+   <file md5sum="8c9b364c97896bad1dbac9a267e022c0" name="lib/vendor/smartsprites/build.xml" role="data" />
+   <file md5sum="30ce4fa7dde215f8cba44cb844606b79" name="lib/vendor/smartsprites/readme.txt" role="data" />
+   <file md5sum="a73c6d125758625b4956e25dd698806d" name="lib/vendor/smartsprites/smartsprites.LICENSE" role="data" />
+   <file md5sum="a2d94a58cb8b4fe476f8d27ace1960d2" name="lib/vendor/smartsprites/smartsprites.cmd" role="data" />
+   <file md5sum="29311bba113f268a7eeb0c38b8d2bb7d" name="lib/vendor/smartsprites/smartsprites.properties" role="data" />
+   <file md5sum="d7ca6be4b3153ff7395699abba43526e" name="lib/vendor/smartsprites/smartsprites.sh" role="data" />
+   <file md5sum="c5c099566b1cf0dbbac2259dc409ca00" name="README" role="data" />
+   <file md5sum="d81b882db681e7c17991f196a9b25f99" name="LICENSE" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.2.0</min>
+    <max>1.3.0</max>
+    <exclude>1.3.0</exclude>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+    <release>
+      <version>
+        <release>0.5.2</release>
+        <api>0.5</api>
+      </version>
+      <stability>
+        <release>=beta</release>
+        <api>=beta</api>
+      </stability>
+      <license uri="http://www.symfony-project.com/license">MIT</license>
+      <date>2009-08-11</date>
+      <notes>=fixed some typos</notes>
+    </release>
+    <release>
+      <version>
+        <release>0.5.1</release>
+        <api>0.5</api>
+      </version>
+      <stability>
+        <release>=beta</release>
+        <api>=beta</api>
+      </stability>
+      <license uri="http://www.symfony-project.com/license">MIT</license>
+      <date>2009-08-11</date>
+      <notes>=fixed permissions</notes>
+    </release>
+    <release>
+      <version>
+        <release>0.5.0</release>
+        <api>0.5</api>
+      </version>
+      <stability>
+        <release>=beta</release>
+        <api>=beta</api>
+      </stability>
+      <license uri="http://www.symfony-project.com/license">MIT</license>
+      <date>2009-08-10</date>
+      <notes>=initial Release</notes>
+    </release>
+   </changelog>
+</package>
