@@ -33,10 +33,10 @@ EOF;
     $params[] = "--sprite-png-ie6";
     $params[] = "--document-root-dir-path ".sfConfig::get("sf_web_dir");
 
-    $chdir = "cd ".dirname(__FILE__)."/../vendor/smartsprites/";
+    $script = "cd ".dirname(__FILE__)."/../vendor/smartsprites/ && ./smartsprites.sh";
 
-    $command = $chdir." && ./smartsprites.sh ".join(" ", $params);
+    $command = $script." ".join(" ", $params);
 
-    $this->log(sfFilesystem::sh($command));
+    $this->log($this->getFilesystem()->execute($command));
   }
 }
